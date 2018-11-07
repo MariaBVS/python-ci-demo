@@ -14,7 +14,7 @@ class MyTest(unittest.TestCase):
         self.assertEqual(example.sum_two_numbers(100,6), 106)
         self.assertEqual(example.sum_two_numbers(1,6), 7)
         self.assertEqual(example.sum_two_numbers(-1,7), 6)
-        self.assertEqual((4,5), 9)
+        #self.assertEqual((4,5), 9)
         
         
 if __name__ == '__main__':
